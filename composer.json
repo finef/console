@@ -1,0 +1,18 @@
+{
+    "name": "fine/console",
+    "type": "fine-module",
+    "license": "MIT",
+    "require": {
+        "fine/app": "*",
+        "fine/composer": "*",
+        "fine/container": "*",
+        "fine/event": "*",
+        "symfony/console": "*"
+    },
+    "autoload": {
+        "psr-4": {"Fine\\Console\\": "src"}
+    },
+    "extra": {
+        "fine-module": {"name": "console", "class": "Fine\\Console\\Module\\Module"}
+    }
+}
